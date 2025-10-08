@@ -28,7 +28,8 @@ ul { margin-top: 0.5em; }
 }
 
 .pict {
-	width: 50vw;	
+	width: 50vw;
+	min-width: 400px;	
 	flex-grow: 1;
 	height: 100vh;
 	/* position: fixed; */
