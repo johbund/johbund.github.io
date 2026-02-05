@@ -1,0 +1,189 @@
+/* HYBRID: Safe-2 Scale + Experimental-B3 Bold Typography */
+/* Work Sans + JetBrains Mono with heavy horizontal rules and black link highlighting */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root {
+  --font-sans: 'Work Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: black;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  gap: 0;
+}
+
+.pict {
+  flex: 0 0 45%;
+  min-width: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pict img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.curicvit {
+  flex: 1 1 60%;
+  overflow-y: scroll;
+  padding: 2.5rem 3rem 2.5rem 1.5rem;
+}
+
+h1 {
+  font-family: var(--font-sans);
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: 0;
+  margin: 0 0 1.5em 0;
+  color: black;
+}
+
+h2 {
+  font-family: var(--font-sans);
+  font-size: 1.48rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 0;
+  margin: 1.5em 0 0.75em 0;
+  color: black;
+  border-top: 3px solid black;
+  /* border-bottom: 3px solid black; */
+  padding: 0.75em 0;
+}
+
+.section {
+  margin-bottom: 4em;
+}
+
+.section:first-of-type h2 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.entry {
+  margin-bottom: 2.5em;
+}
+
+.entry-meta {
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.02em;
+  font-family: var(--font-mono);
+}
+
+.entry-title {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 0 0 0.75em 0;
+  color: black;
+}
+
+.entry p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.date {
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 0.25em;
+}
+
+.description {
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.5;
+  display: block;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  font-weight: 600;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+  padding: 0.15em 0.4em;
+  text-decoration: none;
+}
+
+.svg-letter {
+  display: inline-block;
+  width: 1.8em;
+  height: 1.8em;
+  background-image: url('./letter-e.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* font-size: 0; */
+  vertical-align: middle;
+  margin: 0 -0.4em 0.1em -0.5em;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  font-size: 0.75rem;
+  color: white;
+  font-weight: 400;
+}
+
+/* Scrollbar styling */
+.curicvit::-webkit-scrollbar {
+  width: 8px;
+}
+
+.curicvit::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.curicvit::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 4px;
+}
+
+.curicvit::-webkit-scrollbar-thumb:hover {
+  background: black;
+}

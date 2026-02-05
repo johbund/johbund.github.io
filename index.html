@@ -2,112 +2,117 @@
 <html lang="de">
 <head>
 	<meta charset="UTF-8">
-	<title>Lebenslauf – Johannes Bund</title>
-	<link rel="stylesheet" href="mystyle.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<title>Johannes Bund's Website</title>
+	<link rel="stylesheet" href="mystyle-hybrid.css">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 	<div class="container">
 		<div class="pict">
 			<img src="./johb.jpg"> </img>
+			<!-- <div class="bottom-right">Bottom Right</div> -->
+			<p class="bottom-right">
+				<i class="fa-solid fa-copyright" aria-hidden="true"></i>
+				Foto: <a href="https://plight-saar.de/">PLight-Saar</a>
+			</p>
 		</div>
 		<div class="curicvit">
-			<h1>Hallo, ich bin Johannes</h1>
-			<p style="font-size: 0.9em; color: #555;">
-				<i class="fa-solid fa-envelope" style="margin-right: 0.4em;"></i>
-				<a href="mailto:johbund.cs@protonmail.com" style="color: #555; text-decoration: none;">johbund(dot)cs(at)protonmail(dot)com</a>
-			</p>
+			<h2>Hallo, ich bin Johannes</h2>
 			
 			<div class="section">
 				<p>Ich bin promovierter Informatiker mit Schwerpunkt auf verteilten Systemen, Fehlertoleranz und der Schnittstelle zwischen formalen Methoden und realer Anwendung. Nach meiner Promotion an der Universität des Saarlandes (summa cum laude) arbeitete ich als Postdoc an der Bar-Ilan University (Israel) und an der ENS Paris-Saclay (Frankreich). In dieser Zeit habe ich sowohl theoretisch als auch experimentell an Themen wie Clock-Synchronisation, hardware-nahen Algorithmen und formalen Modellen in der synthetischen Biologie gearbeitet.</p>
 			
 				<p>Meine Forschung verbindet analytische Tiefe mit technischer Umsetzung – etwa in Form von Algorithmen für fehlerrobuste Hardware oder formalen Ansätzen zur Modellierung biologischer Prozesse. Dabei lege ich Wert auf interdisziplinäre Zusammenarbeit und auf Lösungen, die über rein akademische Fragestellungen hinausgehen.</p>
 			</div>
+
 			<div class="section">
-			<h2>Lebenslauf</h2>
-			
-			<div class="entry">
-				<span class="description">Postdoc-Forscher</span>
-				ENS Paris-Saclay, Gif-sur-Yvette, Frankreich<br>
-				Laboratoire Méthodes Formelles (LMF)
-				<ul>
-					<li>Betreuung durch Dr. Matthias Függer und Dr. Thomas Nowak</li>
-					<li>Interdisziplinäre Forschung an der Schnittstelle von Informatik und synthetischer Biologie</li>
-					<li>Experimentelle Validierung formaler Modelle und Algorithmen</li>
-				</ul>
-			</div>
-			<div class="entry">
-				<span class="description">Helmholtz-Fellowship</span>
-				Timelords UG, Saarbrücken, Deutschland
-				<ul>
-					<li>Forschungsstipendium der Helmholtz-Gemeinschaft (Feldstudie)</li>
-					<li>Betreuung durch Dr. Christoph Lenzen</li>
-					<li>Marktforschungsstudie zu Clock-Synchronisation in 5G-Mobilfunknetzen</li>
-				</ul>
-			</div>
-			<div class="entry">
-				<span class="description">Postdoc-Forscher</span>
-				Bar-Ilan University, Ramat Gan, Israel<br>
-				Alexander Kofkin Faculty of Engineering
-				<ul>
-					<li>Betreuung durch Dr. Moti Medina</li>
-					<li>Forschung zu Fehlertoleranz, Clock-Synchronisation und hardware-naher Implementierung</li>
-				</ul>
-			</div>
-			<div class="entry">
-			    <span class="description">Doktorand</span>
-				Max-Planck-Institut für Informatik und
-				CISPA Helmholtz-Zentrum für Informationssicherheit, Saarbrücken, Deutschland
-				<ul>
-					<li>Betreuung durch Dr. Christoph Lenzen</li>
-					<li>Forschung zur Theorie verteilter Systeme mit Schwerpunkt auf Fehlertoleranz, Clock-Synchronisation und hardware-naher Implementierung</li>
-				</ul>
+				<h2>Kurzer Lebenslauf</h2>
+				<div class="entry">
+					<span class="entry-meta">Feb 2024 - Mär 2025</span>
+					<h3 class="entry-title">Postdoc ENS Paris-Saclay</h3>
+					<p>In Zusammenarbeit mit Dr. Matthias Függer und Dr. Thomas Nowak arbeitete ich an interdisziplinären Forschungsprojekten an der Schnittstelle von Informatik und synthetischer Biologie. Ein besonderer Schwerpunkt lag dabei auf der experimentellen Validierung formaler Modelle und Algorithmen.</p>
+				</div>
+				<div class="entry">
+					<span class="entry-meta">Sep 2023 - Nov 2023</span>
+					<h3 class="entry-title">Helmholtz-Fellowship</h3>
+					<p>Im Rahmen eines Forschungsstipendiums der Helmholtz-Gemeinschaft (Feldstudie) arbeitete ich bei der Timelords UG in Saarbrücken unter der Betreuung von Dr. Christoph Lenzen. Der Schwerpunkt lag auf einer Marktforschungsstudie zur Clock-Synchronisation in 5G-Mobilfunknetzen und der Übertragung theoretischer Konzepte in einen industriellen Anwendungskontext.</p>
+				</div>
+				<div class="entry">
+					<span class="entry-meta">Dez 2022 - Aug 2023</span>
+					<h3 class="entry-title">Postdoc Bar-Ilan University</h3>
+					<p>Als Postdoc-Forscher an der Bar-Ilan University in Israel war ich unter der Betreuung von Dr. Moti Medina an der Alexander Kofkin Faculty of Engineering tätig. Meine Forschung konzentrierte sich auf fehlertolerante Systeme, Clock-Synchronisation und hardware-nahe Implementierungen mit Fokus auf robuste und zeitkritische Architekturen.</p>
+				</div>
+				<div class="entry">
+					<span class="entry-meta">Dez 2022 - Aug 2023</span>
+					<h3 class="entry-title">Doktorand MPII & CISPA</h3>
+					<p>Max-Planck-Institut für Informatik und
+					CISPA Helmholtz-Zentrum für Informationssicherheit, Saarbrücken, Deutschland
+					</p>
 				</div>
 			</div>
 			
 			<div class="section">
-				<h2>Publikationen (Auswahl)</h2>
+				<h2>Wissenschaftliche Publikationen</h2>
 				<div class="entry">
-					<span class="date">2023</span>
-					Bund, J., Függer, M., Medina, M. <i>PALS: Distributed Gradient Clocking on Chip.</i> IEEE Transactions on Very Large Scale Integration (VLSI) Systems. <a href="https://doi.org/10.48550/arXiv.2308.15098" target="_blank">DOI</a>
+					<span class="entry-meta">J. Bund, M. Függer, M. Medina, IEEE Transactions on Very Large Scale Integration Systems, 2023</span> 
+					<h3 class="entry-title">PALS: Distributed Gradient Clocking on Chip (<a href="https://doi.org/10.48550/arXiv.2308.15098" target="_blank">DOI</a>)</h3>
 				</div>
 				<div class="entry">
-					<span class="date">2022</span>
-					Bund, J., Lenzen, C., Medina, M. <i>Small Hazard-Free Transducers.</i> 13th Innovations in Theoretical Computer Science Conference (ITCS). <a href="https://doi.org/10.4230/LIPIcs.ITCS.2022.32" target="_blank">DOI</a>
+					<span class="entry-meta">J. Bund, M. Függer, M. Medina, 13th Innovations in Theoretical Computer Science Conference, 2022</span>
+					<h3 class="entry-title">Small Hazard-Free Transducers (<a href="https://doi.org/10.4230/LIPIcs.ITCS.2022.32" target="_blank">DOI</a>)</h3>
 				</div>
 				<div class="entry">
-					<span class="date">2020</span>
-					Bund, J., et al. <i>Synchronizer-Free Digital Link Controller.</i> IEEE Transactions on Circuits and Systems I: Regular Papers. <a href="https://doi.org/10.1109/TCSI.2020.2989552" target="_blank">DOI</a>
+					<span class="entry-meta">J. Bund, M. Függer, C. Lenzen, M. Medina, IEEE Transactions on Circuits and Systems I: Regular Papers, 2020</span>
+					<h3 class="entry-title">Synchronizer-Free Digital Link Controller (<a href="https://doi.org/10.1109/TCSI.2020.2989552" target="_blank">DOI</a>)</h3>
 				</div>
 				<div class="entry">
-					<span class="date">2020</span>
-					Bund, J., et al. <i>PALS: Plesiochronous and Locally Synchronous Systems.</i> IEEE International Symposium on Asynchronous Circuits and Systems (ASYNC). <a href="https://doi.org/10.1109/ASYNC49171.2020.00013" target="_blank">DOI</a>
+					<span class="entry-meta">J. Bund, M. Függer, C. Lenzen, M. Medina, W. Rosenbaum, IEEE International Symposium on Asynchronous Circuits and Systems, 2020</span>
+					<h3 class="entry-title">PALS: Plesiochronous and Locally Synchronous Systems (<a href="https://doi.org/10.1109/ASYNC49171.2020.00013" target="_blank">DOI</a>)</h3>
 				</div>
 				<div class="entry">
-					<span class="date">2019</span>
-					Bund, J., Lenzen, C., Rosenbaum, W. <i>Fault Tolerant Gradient Clock Synchronization.</i> ACM Symposium on Principles of Distributed Computing (PODC). <a href="https://doi.org/10.1145/3293611.3331637" target="_blank">DOI</a>
+					<span class="entry-meta">J. Bund, C. Lenzen, W. Rosenbaum, ACM Symposium on Principles of Distributed Computing, 2019</span>
+					<h3 class="entry-title">Fault Tolerant Gradient Clock Synchronization (<a href="https://doi.org/10.1145/3293611.3331637" target="_blank">DOI</a>)</h3>
 				</div>
 				<div class="entry">
-					<span class="date">2019</span>
-					Bund, J., Lenzen, C., Medina, M. <i>Optimal Metastability-Containing Sorting via Parallel Prefix Computation.</i> IEEE Transactions on Computers, 69(2), 198–211. <a href="https://doi.org/10.1109/TC.2019.2939818" target="_blank">DOI</a>
+					<span class="entry-meta">J. Bund, C. Lenzen, M. Medina, IEEE Transactions on Computers, 2019</span>
+					<h3 class="entry-title">Optimal Metastability-Containing Sorting via Parallel Prefix Computation (<a href="https://doi.org/10.1109/TC.2019.2939818" target="_blank">DOI</a>)</h3>
 				</div>
-				<a href="//dblp.org/pid/199/8592.html">Vollständige Liste</a>
+				<a href="//dblp.org/pid/199/8592.html">Alle Publikationen</a>
 			</div>
 			
 			<div class="section">
 				<h2>Persönliches Engagement</h2>
-				<ul>
-				  <li>Fotoprojekt PixxelCult: <a href="https://www.pixxelcult.de/serie-detail/lichtung.html" target="_blank">Lichtung</a></li>
-				  <li>Jazzförderkreis St. Wendel (<a href="https://www.wndjazz.de/" target="_blank">WND Jazz</a>)</li>
-				</ul>
+
+				<div class="entry">
+					<span class="entry-meta">Jun 2022 - Okt 2022</span>
+					<h3 class="entry-title">Fotoprojekt <a href="https://www.pixxelcult.de/serie-detail/lichtung.html" target="_blank">Lichtung</a></h3>
+					<!-- <p>PixxelCult</p> -->
+				</div>
+
+				<div class="entry">
+					<span class="entry-meta">seit 2010</span>
+					<h3 class="entry-title">Jazzförderkreis St. Wendel (<a href="https://www.wndjazz.de/" target="_blank">WND Jazz</a>)</h3>
+					<!-- <p>WND Jazz</p> -->
+				</div>
 			</div>
 
 			<div class="section">
+				<h2>Kontakt</h2>
+				<div class="entry">
+					<span class="entry-meta">Email</span>
+					<h3 class="entry-title"><a href="mailto:johbund.cs@protonmail.com">johbund (dot) cs (at) protonmail (dot) com</a></h3>
+					<!-- <p>email</p> -->
+				</div>
 			</div>
-			<p style="font-size: 0.9em; color: #555;">
-				<i class="fa-solid fa-copyright" aria-hidden="true"></i>
-				Foto: <a href="https://plight-saar.de/">PLight-Saar</a>
-			</p>
 		</div>
 	</div>
 </body>
