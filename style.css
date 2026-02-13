@@ -1,8 +1,6 @@
 /* HYBRID: Safe-2 Scale + Experimental-B3 Bold Typography */
 /* Work Sans + JetBrains Mono with heavy horizontal rules and black link highlighting */
 
-/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap'); */
-
 :root {
   --font-sans: 'Work Sans', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
@@ -32,23 +30,32 @@ body {
   gap: 0;
 }
 
-.pict {
+.img-box {
   flex: 0 0 45%;
   min-width: 350px;
   overflow: hidden;
   position: relative;
 }
 
-.pict img {
+.img-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.curicvit {
+.img-copyright {
+  position: absolute;
+  bottom: .5em;
+  right: 1em;
+  font-size: 0.75rem;
+  color: white;
+  font-weight: 400;
+}
+
+.cv-box {
   flex: 1 1 60%;
   overflow-y: scroll;
-  padding: 2.5rem 3rem 2.5rem 1.5rem;
+  padding: 2.5rem 3rem 2.5rem 1rem;
 }
 
 h1 {
@@ -159,31 +166,4 @@ a:hover {
   /* font-size: 0; */
   vertical-align: middle;
   margin: 0 -0.4em 0.1em -0.5em;
-}
-
-.bottom-right {
-  position: absolute;
-  bottom: 1em;
-  right: 1em;
-  font-size: 0.75rem;
-  color: white;
-  font-weight: 400;
-}
-
-/* Scrollbar styling */
-.curicvit::-webkit-scrollbar {
-  width: 8px;
-}
-
-.curicvit::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.curicvit::-webkit-scrollbar-thumb {
-  background: black;
-  border-radius: 4px;
-}
-
-.curicvit::-webkit-scrollbar-thumb:hover {
-  background: black;
 }
