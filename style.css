@@ -81,17 +81,17 @@ h2 {
   padding: 0.75em 0;
 }
 
-.section {
+section {
   margin-bottom: 4em;
 }
 
-.section:first-of-type h2 {
+section:first-of-type h2 {
   border-top: none;
   padding-top: 0;
   margin-top: 0;
 }
 
-.section:last-child {
+section:last-child {
   border-bottom: none;
 }
 
@@ -125,21 +125,6 @@ h2 {
   line-height: 1.6;
 }
 
-.date {
-  font-size: 0.8rem;
-  font-weight: 300;
-  line-height: 1.5;
-  display: block;
-  margin-bottom: 0.25em;
-}
-
-.description {
-  font-size: 0.8rem;
-  font-weight: 300;
-  line-height: 1.5;
-  display: block;
-}
-
 a {
   color: black;
   text-decoration: underline;
@@ -153,17 +138,4 @@ a:hover {
   color: white;
   padding: 0.15em 0.4em;
   text-decoration: none;
-}
-
-.svg-letter {
-  display: inline-block;
-  width: 1.8em;
-  height: 1.8em;
-  background-image: url('./letter-e.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* font-size: 0; */
-  vertical-align: middle;
-  margin: 0 -0.4em 0.1em -0.5em;
 }
