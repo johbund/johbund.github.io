@@ -1,4 +1,4 @@
-/* HYBRID: Safe-2 Scale + Experimental-B3 Bold Typography */
+/* My personal css style file */
 /* Work Sans + JetBrains Mono with heavy horizontal rules and black link highlighting */
 
 :root {
@@ -77,22 +77,11 @@ h2 {
   margin: 1.5em 0 0.75em 0;
   color: black;
   border-top: 3px solid black;
-  /* border-bottom: 3px solid black; */
   padding: 0.75em 0;
 }
 
 section {
   margin-bottom: 4em;
-}
-
-section:first-of-type h2 {
-  border-top: none;
-  padding-top: 0;
-  margin-top: 0;
-}
-
-section:last-child {
-  border-bottom: none;
 }
 
 .entry {
