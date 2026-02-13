@@ -1,7 +1,7 @@
 /* HYBRID: Safe-2 Scale + Experimental-B3 Bold Typography */
 /* Work Sans + JetBrains Mono with heavy horizontal rules and black link highlighting */
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap'); */
 
 :root {
   --font-sans: 'Work Sans', sans-serif;
